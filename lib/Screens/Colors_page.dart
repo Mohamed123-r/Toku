@@ -14,43 +14,43 @@ class ColorsPage extends StatelessWidget {
       enText: 'black',
       image: 'assets/images/color/color_black.png',
     ),
-    const Item(
+     const Item(
       sound: 'sounds/colors/brown.wav',
       jpText: 'Chairo',
       enText: 'brown',
       image: 'assets/images/color/color_brown.png',
     ),
-    const Item(
+     const Item(
       sound: 'sounds/colors/dusty yellow.wav',
       jpText: 'kiiro',
       enText: 'dusty yellow',
       image: 'assets/images/color/color_dusty_yellow.png',
     ),
-    const Item(
+     const Item(
       sound: 'sounds/colors/gray.wav',
       jpText: 'Gure',
       enText: 'gray',
       image: 'assets/images/color/color_gray.png',
     ),
-    const Item(
+     const Item(
       sound: 'sounds/colors/green.wav',
       jpText: 'Midori',
       enText: 'green',
       image: 'assets/images/color/color_green.png',
     ),
-    const Item(
+     const Item(
       sound: 'sounds/colors/red.wav',
       jpText: 'Aka',
       enText: 'red',
       image: 'assets/images/color/color_red.png',
     ),
-    const Item(
+     const Item(
       sound: 'sounds/colors/white.wav',
       jpText: 'Shiro',
       enText: 'white',
       image: 'assets/images/color/color_white.png',
     ),
-    const Item(
+     const Item(
       sound: 'sounds/colors/yellow.wav',
       jpText: 'Kiiro',
       enText: 'yellow',

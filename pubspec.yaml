@@ -64,7 +64,7 @@ flutter:
   assets:
     - assets/images/number/
     - assets/images/color/
-    - assets/images/family_member/
+    - assets/images/famely_member/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

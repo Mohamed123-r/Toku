@@ -12,6 +12,7 @@ class Catagory extends StatelessWidget {
   // ignore: prefer_typing_uninitialized_variables
   var ontap;
 
+  // ignore: prefer_typing_uninitialized_variables
   var colors;
 
   String text;
@@ -25,14 +26,14 @@ class Catagory extends StatelessWidget {
             color: colors,
           borderRadius: BorderRadius.circular(10),
         ),
-        margin: EdgeInsets.all(8),
+        margin: const EdgeInsets.all(8),
         alignment: Alignment.center,
         width: 180,
         height: 358,
 
         child: Text(
           text,
-          style: TextStyle(
+          style: const TextStyle(
             color: Colors.white,
             fontSize: 20
           ),

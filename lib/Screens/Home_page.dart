@@ -12,9 +12,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xff04263D),
+        backgroundColor: const Color(0xff04263D),
         centerTitle: true,
-        title: Text(
+        title: const Text(
           'Toku',
           style: TextStyle(
             fontSize: 30,
@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
           Expanded(
             child: Catagory(
               text: 'Numbers',
-              colors: Color(0xff1C6F82),
+              colors: const Color(0xff1C6F82),
               ontap: () {
                 Navigator.of(context).push(
                   MaterialPageRoute(
@@ -43,7 +43,7 @@ class HomePage extends StatelessWidget {
           Expanded(
             child: Catagory(
               text: 'Colors',
-              colors: Color(0xff3990A1),
+              colors: const Color(0xff3990A1),
               ontap: () { Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (con) {
@@ -56,7 +56,7 @@ class HomePage extends StatelessWidget {
           Expanded(
             child: Catagory(
               text: 'Family Members',
-              colors: Color(0xff80A29F),
+              colors: const Color(0xff80A29F),
               ontap: () { Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (con) {
@@ -69,7 +69,7 @@ class HomePage extends StatelessWidget {
           Expanded(
             child: Catagory(
               text: 'Phrases',
-              colors: Color(0xffADC2B6),
+              colors: const Color(0xffADC2B6),
               ontap: () { Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (con) {
