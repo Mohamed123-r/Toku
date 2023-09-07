@@ -47,7 +47,7 @@ class HomePage extends StatelessWidget {
               ontap: () { Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (con) {
-                    return ColorssPage();
+                    return ColorsPage();
                   },
                 ),
               );},
