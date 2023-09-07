@@ -8,7 +8,8 @@ class FamilyMembesPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Famely Members'),
-        //backgroundColor: Color(0xff04263D),
+        backgroundColor: Color(0xff04263D),
+
       ),
     );
   }
