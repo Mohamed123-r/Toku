@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:toku/Scrren/Home_page.dart';
+import 'package:toku/Screens/Home_page.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
+debugShowCheckedModeBanner: false,
 
       home: HomePage(),
     );
