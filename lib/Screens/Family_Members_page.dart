@@ -8,41 +8,47 @@ class FamilyMembesPage extends StatelessWidget {
   FamilyMembesPage({super.key});
 
   List<Item> familyMembers = [
-
+    const Item(
+      sound: 'sounds/famely_member/father.wav',
+      jpText: 'Chichioya',
+      enText: 'father',
+      image: 'assets/images/famely_member/family_father.png',
+    ),
+    const Item(
+      sound: 'sounds/famely_member/mother.wav',
+      jpText: 'Hahaoya',
+      enText: 'mother',
+      image: 'assets/images/famely_member/family_mother.png',
+    ),
      const Item(
-      sound: 'sounds/famely_member/grand father.wav',
+      sound: 'sounds/famely_member/son.wav',
+      jpText: 'Musuko',
+      enText: 'son',
+      image: 'assets/images/famely_member/family_son.png',
+    ),
+    const Item(
+      sound: 'sounds/famely_member/daughter.wav',
       jpText: 'Musume',
       enText: 'daughter',
       image: 'assets/images/famely_member/family_daughter.png',
     ),
      const Item(
-      sound: 'sounds/famely_member/grand mother.wav',
-      jpText: 'Chichioya',
-      enText: 'father',
-      image: 'assets/images/famely_member/family_father.png',
-    ),
-     const Item(
-      sound: 'sounds/famely_member/mother.wav',
+      sound: 'sounds/famely_member/grandfather.wav',
       jpText: 'Sofu',
       enText: 'grandfather',
       image: 'assets/images/famely_member/family_grandfather.png',
     ),
     const Item(
-      sound: 'sounds/famely_member/older bother.wav',
+      sound: 'sounds/famely_member/grandmother.wav',
       jpText: 'Sobo',
       enText: 'grandmother',
       image: 'assets/images/famely_member/family_grandmother.png',
     ),
-    const Item(
-      sound: 'sounds/famely_member/older sister.wav',
-      jpText: 'Hahaoya',
-      enText: 'mother',
-      image: 'assets/images/famely_member/family_mother.png',
-    ),
+
    const Item(
-      sound: 'sounds/famely_member/son.wav',
-      jpText: 'Kyōdai',
-      enText: 'brother',
+      sound: 'sounds/famely_member/older_brother.wav',
+      jpText: 'Ani',
+      enText: 'older brother',
       image: 'assets/images/famely_member/family_older_brother.png',
     ),
     const Item(
@@ -51,12 +57,7 @@ class FamilyMembesPage extends StatelessWidget {
       enText: 'older sister',
       image: 'assets/images/famely_member/family_older_sister.png',
     ),
-     const Item(
-      sound: 'sounds/famely_member/father.wav',
-      jpText: 'Musuko',
-      enText: 'son',
-      image: 'assets/images/famely_member/family_son.png',
-    ),
+
    const Item(
       sound: 'sounds/famely_member/younger brohter.wav',
       jpText: 'Otōto',

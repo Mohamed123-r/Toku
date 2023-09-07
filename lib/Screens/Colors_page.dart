@@ -20,12 +20,7 @@ class ColorsPage extends StatelessWidget {
       enText: 'brown',
       image: 'assets/images/color/color_brown.png',
     ),
-     const Item(
-      sound: 'sounds/colors/dusty yellow.wav',
-      jpText: 'kiiro',
-      enText: 'dusty yellow',
-      image: 'assets/images/color/color_dusty_yellow.png',
-    ),
+
      const Item(
       sound: 'sounds/colors/gray.wav',
       jpText: 'Gure',
@@ -55,6 +50,12 @@ class ColorsPage extends StatelessWidget {
       jpText: 'Kiiro',
       enText: 'yellow',
       image: 'assets/images/color/yellow.png',
+    ),
+    const Item(
+      sound: 'sounds/colors/dusty yellow.wav',
+      jpText: 'Dasutiierō',
+      enText: 'dusty yellow',
+      image: 'assets/images/color/color_dusty_yellow.png',
     ),
 
   ];

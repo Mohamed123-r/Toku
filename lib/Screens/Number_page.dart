@@ -3,9 +3,14 @@ import 'package:toku/components/item_info.dart';
 import 'package:toku/models/Item_build.dart';
 
 // ignore: must_be_immutable
-class NumbersPage extends StatelessWidget {
+class NumbersPage extends StatefulWidget {
   NumbersPage({super.key});
 
+  @override
+  State<NumbersPage> createState() => _NumbersPageState();
+}
+
+class _NumbersPageState extends State<NumbersPage> {
   List<Item> number = [
     const Item(
       sound: 'sounds/numbers/number_one_sound.mp3',

@@ -4,13 +4,18 @@ import 'package:toku/models/Item_build.dart';
 
 
 // ignore: camel_case_types
-class itemPhInfo extends StatelessWidget {
+class itemPhInfo extends StatefulWidget {
   const itemPhInfo({super.key, required this.item});
 
   final Item item;
 
+  @override
+  State<itemPhInfo> createState() => _itemPhInfoState();
+}
 
+class _itemPhInfoState extends State<itemPhInfo> {
 
+  bool test =true;
   @override
   Widget build(BuildContext context) {
     return Row(
@@ -28,11 +33,11 @@ class itemPhInfo extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                item.jpText,
+                widget.item.jpText,
                 style: const TextStyle(fontSize: 20, color: Colors.white),
               ),
               Text(
-                item.enText,
+                widget.item.enText,
                 style: const TextStyle(fontSize: 20, color: Colors.white),
               ),
             ],
@@ -42,13 +47,16 @@ class itemPhInfo extends StatelessWidget {
           flex: 1,
         ),
         IconButton(
-          onPressed: () {
+          onPressed: () async {
             final player = AudioPlayer();
+            player.play(AssetSource(widget.item.sound));
+            setState(() => test = false);
+            await Future.delayed(Duration(milliseconds:2500 ));
 
-            player.play(AssetSource(item.sound));
+            setState(() => test = true);
           },
-          icon: const Icon(
-            Icons.play_arrow_sharp,
+          icon: Icon(
+            test == true ? Icons.play_arrow_sharp : Icons.pause,
             size: 32,
             color: Colors.white,
           ),
@@ -56,6 +64,6 @@ class itemPhInfo extends StatelessWidget {
       ],
     );
   }
-  }
+}
 
 

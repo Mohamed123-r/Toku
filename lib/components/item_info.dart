@@ -2,10 +2,9 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:toku/models/Item_build.dart';
 
-
 // ignore: camel_case_types
 class itemInfo extends StatefulWidget {
-  const itemInfo({super.key, required this.item});
+  itemInfo({super.key, required this.item});
 
   final Item item;
 
@@ -15,6 +14,8 @@ class itemInfo extends StatefulWidget {
 
 // ignore: camel_case_types
 class _itemInfoState extends State<itemInfo> {
+  bool test = true;
+
   @override
   Widget build(BuildContext context) {
     return Row(
@@ -46,12 +47,16 @@ class _itemInfoState extends State<itemInfo> {
           flex: 1,
         ),
         IconButton(
-          onPressed: () {
+          onPressed: () async {
             final player = AudioPlayer();
-             player.play(AssetSource(widget.item.sound));
+            player.play(AssetSource(widget.item.sound));
+            setState(() => test = false);
+            await Future.delayed(Duration(seconds: 1));
+
+            setState(() => test = true);
           },
-          icon: const Icon(
-            Icons.play_arrow_sharp,
+          icon: Icon(
+            test == true ? Icons.play_arrow_sharp : Icons.pause,
             size: 32,
             color: Colors.white,
           ),

@@ -56,12 +56,9 @@ class _PhrasesPageState extends State<PhrasesPage> {
       enText: 'what is your name',
 
     ),
-    const Item(
-      sound: 'sounds/phrases/where_are_you_going.wav',
-      jpText: 'Doko ni iku no',
-      enText: 'where are you going',
 
-    ),
+
+
     const Item(
       sound: 'sounds/phrases/where_are_you_going.wav',
       jpText: 'Doko ni iku no',
