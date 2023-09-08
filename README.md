@@ -16,11 +16,4 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 
-
-
-
-
-
-
-![Screenrecorder-2023-09-09-00-50-14-295](https://github.com/Mohamed123-r/Toku/assets/143755584/35fbad26-de3f-404f-9949-accf8f4fba63)
 ![Screenrecorder-2023-09-09-00-50-14-295](https://github.com/Mohamed123-r/Toku/assets/143755584/0c8b2012-3a2d-4b48-997d-5b1642788325)
