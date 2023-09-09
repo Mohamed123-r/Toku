@@ -20,8 +20,6 @@ samples, guidance on mobile development, and a full API reference.
 
 https://github.com/Mohamed123-r/Toku/assets/143755584/99add05d-85a6-4d0a-a0ea-bb3b3e49dd5e
 
-https://github.com/Mohamed123-r/Toku/assets/143755584/a70c5359-e565-47cf-a275-889cbbf88669
-
 
 
 
